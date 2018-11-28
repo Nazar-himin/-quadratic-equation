@@ -17,7 +17,7 @@ function calcDiscr(a, b, c) {
     return d;
 }
 
-const a = parseFloat(prompt('Enter A'));
+const a = parseFloat(prompt('Enter A. A ≠ 0'));
 const b = parseFloat(prompt('Enter B'));
 const c = parseFloat(prompt('Enter C'));
 if (a === 0) {
